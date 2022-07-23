@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:elevation="3dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/rounded_corner_bacgkround_white"
+    android:backgroundTint="@color/white"
+    android:paddingBottom="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/qnTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q. 1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/questionCL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/qnTv">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="Welcome To Class Bhim App. India's own only study platform."
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/questionImage"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/optionsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionCL">
+
+        <TextView
+            android:id="@+id/optA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textColor="@color/black"
+            android:paddingHorizontal="8dp"
+            android:textSize="@dimen/_14sdp"
+            android:background="@color/white"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/optB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingHorizontal="10dp"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="-----"
+            android:layout_marginTop="8dp"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/optC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+
+            android:background="@color/white"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:text="-----"
+            android:textColor="@color/black"
+
+            android:textAlignment="viewStart"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/optD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:text="-----"
+            android:textSize="@dimen/_14sdp"
+
+            android:textAlignment="viewStart"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

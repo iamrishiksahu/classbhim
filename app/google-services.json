@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165360845915",
+    "project_id": "sepl-schoolstudents",
+    "storage_bucket": "sepl-schoolstudents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165360845915:android:c261ac5c52c3307f57eb7e",
+        "android_client_info": {
+          "package_name": "com.sepl.classbhim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165360845915-3a9ibb7ntd486ehbu8ju42cpa9rs6oq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu-rnKpiB0jW-qgqtZ96XoiUAh8sbW7Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165360845915-3a9ibb7ntd486ehbu8ju42cpa9rs6oq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

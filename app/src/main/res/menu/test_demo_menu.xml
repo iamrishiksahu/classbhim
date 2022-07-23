@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="GIVE Demo Test"
+        android:id="@+id/demoTest"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        android:tooltipText="Take demo test to experience our test platform."
+        />
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/home_icon_image"
+        android:id="@+id/nav_home"
+        />
+
+    <item
+        android:title="Give Demo Test"
+        android:icon="@drawable/test_icon"
+        android:id="@+id/nav_demo_test"
+        />
+
+    <item
+        android:title="View Results"
+        android:icon="@drawable/analysis_icon"
+        android:id="@+id/nav_results"
+        />
+
+
+    <group android:id="@+id/asd">
+
+
+        <item
+            android:title="Rate Us"
+            android:icon="@drawable/rating"
+            android:id="@+id/nav_rate"
+            />
+
+        <item
+            android:icon="@drawable/share_icon_image"
+            android:title="Share This App"
+            android:id="@+id/nav_share"
+            />
+
+        <item
+            android:icon="@drawable/info_icon_image"
+            android:title="Privacy Policy"
+            android:id="@+id/nav_privacy"
+            />
+        <item
+            android:title="Logout"
+            android:icon="@drawable/sign_out_icon_image"
+            android:id="@+id/nav_logout"
+            />
+
+    </group>
+
+
+</menu>

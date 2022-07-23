@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Class Bhim</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="long_test_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+    <string name="instruction"><ul><li>You have to finish the test in " + maxTime + " minutes.</li>
+                <li>This test can be attempted only twice.</li>
+                <li>Each question contains 4 option out of which only one is correct.</li>
+                <li>Negative marking in each question will be displayed at the top in red color.</li>
+                <li>Positive marking in each question will be displayed at the top in green color.</li>
+                <li>There is no negative marking for the question which you have not attempted.</li>
+                <li>After time is over, the test gets submitted automatically.</li>
+                <li>When you click on start test button, you agree to the instruction provided above.</li></ul>;
+</string>
+    <string name="open_toggle">Open</string>
+    <string name="close_toggle">Close</string>
+    <string name="privacy_policy_url">https://classbhim.com/privacy-policy/</string>
+</resources>

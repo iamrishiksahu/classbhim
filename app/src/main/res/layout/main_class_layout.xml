@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/classDetailsLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:elevation="3dp"
+    app:layout_constraintTop_toBottomOf="@+id/poster_slider_view_pager"
+    android:background="@drawable/rounded_corner_bacgkround_white"
+    android:backgroundTint="@color/white"
+    android:layout_height="370dp">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:padding="4dp"
+        android:id="@+id/schoolLogo"
+        android:src="@drawable/school_logo_placeholder"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/schoolNameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="--"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/schoolLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/schoolLogo"
+        app:layout_constraintTop_toTopOf="@+id/schoolLogo" />
+
+
+    <View
+        android:id="@+id/schoolDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/primaryLight"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/schoolLogo"
+        />
+
+    <TextView
+        android:id="@+id/classNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="--"
+        android:textColor="@color/primaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schoolDivider" />
+
+    <TextView
+        android:id="@+id/statusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/classNameTv"
+        app:layout_constraintStart_toStartOf="@+id/classNameTv"
+        app:layout_constraintTop_toBottomOf="@+id/classNameTv" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noticeBoardBtn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="@dimen/_32sdp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner_bacgkround_white"
+        android:backgroundTint="@color/primaryLight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusTv">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="16dp"
+            android:src="@drawable/notice_board"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Notice Board"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/subjectsBtn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="@dimen/_32sdp"
+        android:background="@drawable/rounded_corner_bacgkround_white"
+        android:backgroundTint="@color/primaryLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusTv">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_bacgkround_white"
+            android:backgroundTint="@color/primaryLight"
+            android:paddingHorizontal="16dp"
+            android:src="@drawable/bookshelf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text=">> Subjects"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
